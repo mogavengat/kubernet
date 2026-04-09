@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/mogavengat/kubernet.git'
+                git branch: 'main', url: 'https://github.com/mogavengat/kubernet.git'
             }
         }
 
